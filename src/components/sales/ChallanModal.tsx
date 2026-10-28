@@ -463,34 +463,8 @@ export const ChallanModal: React.FC<ChallanModalProps> = ({
                 </div>
               </div>
 
-              {/* Authorized By with Official Stamp & Blue Signature */}
-              <div className="relative">
-                {/* Official Circular Seal Stamp Graphic + Signature Overlay */}
-                <div className="absolute -top-16 left-1/2 -translate-x-1/2 pointer-events-none select-none">
-                  <div className="relative flex items-center justify-center">
-                    {/* Blue Ink Signature Overlay */}
-                    <div
-                      className="absolute -left-10 -top-1 text-blue-900 text-2xl font-bold tracking-tight select-none rotate-[-6deg]"
-                      style={{ fontFamily: '"Brush Script MT", "Segoe Script", "Dancing Script", cursive' }}
-                    >
-                      Hasan Khan
-                    </div>
-
-                    {/* Circular Rubber Stamp */}
-                    <div className="w-22 h-22 rounded-full border-2 border-dashed border-blue-900/90 flex flex-col items-center justify-center p-1 text-blue-900 bg-blue-50/25 rotate-[-10deg] shadow-xs">
-                      <div className="text-[6.5px] font-black uppercase text-center leading-tight tracking-wider">
-                        SECURITY FOR A SUSTAINABLE
-                      </div>
-                      <div className="text-[11px] font-black tracking-widest border-y border-blue-900/80 px-2 my-0.5">
-                        ENSEC
-                      </div>
-                      <div className="text-[6.5px] font-bold uppercase text-center leading-tight tracking-wider">
-                        ENERGY WORLD
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
+              {/* Authorized By */}
+              <div>
                 <div className="border-t border-black pt-1.5 font-bold text-black text-[13px]">
                   Authorized By
                 </div>

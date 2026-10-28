@@ -394,34 +394,8 @@ export const DeliveryOrderModal: React.FC<DeliveryOrderModalProps> = ({
                 </div>
               </div>
 
-              {/* Authorized By with Official Stamp & Signature */}
-              <div className="relative">
-                {/* Official Circular Seal Stamp Graphic */}
-                <div className="absolute -top-16 left-1/2 -translate-x-1/2 pointer-events-none select-none opacity-90">
-                  <div className="relative flex items-center justify-center">
-                    {/* Blue Ink Signature Overlay */}
-                    <div
-                      className="absolute -left-6 top-3 font-serif italic text-blue-900 text-lg font-bold tracking-tight select-none rotate-[-8deg]"
-                      style={{ fontFamily: '"Brush Script MT", "Segoe Script", cursive' }}
-                    >
-                      Hasan
-                    </div>
-
-                    {/* Circular Stamp */}
-                    <div className="w-20 h-20 rounded-full border-2 border-dashed border-blue-800 flex flex-col items-center justify-center p-1 text-blue-900 bg-blue-50/20 rotate-[-12deg]">
-                      <div className="text-[7px] font-black uppercase text-center leading-tight">
-                        ENERGY SECURITY
-                      </div>
-                      <div className="text-[10px] font-black tracking-widest border-y border-blue-800 px-1 my-0.5">
-                        ENSEC
-                      </div>
-                      <div className="text-[6px] font-bold uppercase text-center leading-tight">
-                        SUSTAINABLE WORLD
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
+              {/* Authorized By */}
+              <div>
                 <div className="border-t border-black pt-1.5 uppercase font-bold text-black">
                   Authorized By
                 </div>
